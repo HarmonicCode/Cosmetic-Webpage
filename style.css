@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 1px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body{
+     background-color: white; 
+}
+
+
+.navbar {
+    background-color: white;
+    overflow: auto; /* Add overflow to handle floating elements */
+    position: fixed;
+    top:0;
+    left:0;
+    
+}
+
+
+.navbar ul {
+    padding: 6px; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    list-style: none;
+    font-weight: 550;
+}
+
+.navbar li {
+    float: left;
+    margin: 0 10px; /* Adjust margin for spacing */
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    padding: 15px 10px; /* Adjust padding for spacing */
+}
+
+.navbar-brand {
+    display: inline-block; /* Ensure the brand stays in line with the navbar items */
+    padding: 15px 62px;
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    width: 350px;
+}
+.navbar {
+    padding-top: 1.5rem; /* Adjust top padding */
+    padding-bottom: 1.5rem; /* Adjust bottom padding */
+}
+.navbar-nav a {
+    font-size: 45px; /* Adjust the value as needed */
+}
+
+.navbar-brand img {
+    height: 70px; /* Adjust logo height */
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.5rem; /* Adjust padding of the toggler */
+}
+
+.navbar-nav .nav-link {
+    padding: 0.5rem 1rem; /* Adjust padding of nav links */
+    font-size: 14px; /* Adjust font size */
+}
+
+.span {
+    text-decoration: none;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-text m {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; /* Adjust text color as needed */
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Adjust text color as needed */
+  }
+  
+.image-text h2{
+    font-family: "Merriweather";
+
+}
+.image-text p {
+    font-family: "Lobster"; /* Change to your desired font family */
+}
+
+
+.img-fluid {
+    height: 200px; /* Adjust the height as needed */
+    width: auto; /* This ensures the width adjusts proportionally */
+}
+
+
+.about-section {
+    font-family: Merriweather;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.about-section {
+    font-family:Merriweather;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 50px 0;
+    
+}
+.about-section h3 {
+    color: red; /* Change color to your desired color */
+    /* Your other styles */
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+}
+.custom-spacing {
+    margin-bottom: 2rem; /* Adjust this value as needed */
+}
+
+.overlay-container {
+    position: relative;
+    width: 100%;
+}
+.overlay-image {
+    width: 100%;
+    height: auto;
+}
+.overlay-text {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: red;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a semi-transparent background to the text */
+    padding: 5px 10px;
+    border-radius: 5px; /* Optional: Adds rounded corners to the background */
+}
+
+
+.image-container logo{
+    text-align: center;
+    margin-top: 50px;
+}
+.custom-font {
+    font-family: Merriweather; /* Replace 'Your Font' with the desired font family */
+}
+
+.text-red {
+    color: red;
+}
+
+h1 {
+    font-family: "Georgia"; /* Change the font family here */
+}
+
+
+.image-container {
+    max-width: 100%; /* Adjust as needed */
+}
+
+.image-container {
+    position: relative; /* Add position relative to the container */
+}
+
+.text-over-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Optional: Add text shadow */
+}
+
+
+.image-container {
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    border-top: 1px solid #e7e7e7;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer-contact {
+    text-align: right;
+}
+
+.footer-contact h4 {
+    margin: 0 0 10px;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+
+.footer-contact p {
+    color: #e74c3c; /* Red color for the heading */
+}
+
+.footer-contact h4 {
+    color: #121314; /* Blue color for the paragraphs */
+}
+
+
+
+.image-container {
+    overflow: hidden; /* Ensures the scaled image doesn't overflow its container */
+    position: relative;
+}
+.image-container img {
+    transition: transform 0.5s ease-in-out;
+}
+.image-container:hover img {
+    transform: scale(1.1);
+}
+
+.image-text {
+    transition: transform 0.5s ease-in-out;
+}
+.image-container:hover .image-text {
+    transform: translateY(-10px); /* Moves the text up slightly on hover */
+}
